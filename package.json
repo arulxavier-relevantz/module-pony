@@ -1,0 +1,38 @@
+{
+  "name": "module-pony",
+  "version": "0.0.1",
+  "description": "Sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontians-web/module-pony.git"
+  },
+  "keywords": [
+    "npm",
+    "module"
+  ],
+  "author": "arul xavier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frontians-web/module-pony/issues"
+  },
+  "homepage": "https://github.com/frontians-web/module-pony#readme",
+  "dependencies": {
+
+    
+    "source-map-support": "^0.4.0",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.12",
+    "webpack": "^1.12.15",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
+   
+},
+  "devDependencies": {
+    
+    "ts-loader": "^0.8.2"
+  }
+}

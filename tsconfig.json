@@ -1,0 +1,20 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": false,
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "pretty":true,
+    "noLib": false,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": false
+
+  },
+  "files": [
+    "index.ts"
+  ]
+}
