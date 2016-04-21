@@ -1,2 +1,10 @@
-require("source-map-support").install(),function(t){function r(n){if(o[n])return o[n].exports;var e=o[n]={exports:{},id:n,loaded:!1};return t[n].call(e.exports,e,e.exports,r),e.loaded=!0,e.exports}var o={};return r.m=t,r.c=o,r.p="",r(0)}([function(t,r,o){t.exports=o(1)},function(t,r){"use strict";var o=function(){function t(){}return t.prototype.bite=function(){alert("Chomp!")},t}();r.Pony=o}]);
-//# sourceMappingURL=index.js.map
+"use strict";
+	var Pony = (function () {
+	    function Pony() {
+	    }
+	    Pony.prototype.bite = function () {
+	        alert("Chomp!");
+	    };
+	    return Pony;
+	}());
+	exports.Pony = Pony;
